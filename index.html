@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;800&display=swap" rel="stylesheet">
+    <title>Ficha técnica</title>
+</head>
+<body>
+    <header id="header">
+      <div class="logo">
+      <img id="logoEtrusca" src="https://i.postimg.cc/y8j19qhw/logo.png">  
+      </div> 
+    </header>
+
+    <section clas="tittleAndTable">
+        <div class="title">
+            <h1 id="name">Cappuccine base en polvo sabor frosted latte bolsa 1.362 kg</h1>
+        </div>
+        <ul class="list-group" style="list-style: none;">
+            <li class="list-group-item" id="keySap">Clave: IBP-OO2</li>
+            <li class="list-group-item" id="brand">Marca: CAPUCCHINE</li>
+            <li class="list-group-item" id="category">Categoría: Bases en polvo</li>
+            <li class="list-group-item" id="flavor">Sabor: Vainilla</li>
+          </ul>
+    </section>
+    <main>
+        <div class="containerDescription">
+            <div>
+                <p id="description">
+                    Descripción: 
+                    Base en polvo sabor café con leche. para preparar bebidas frías y calientes. elaborado con café y 
+                    toque de chocolate, endulzado con azúcar de caña y jarabe de maíz y saborizantes artificiales. 
+                    Libre de gluten. Producto con certificación kosher y certificación halal. Bolsa con 1.362kg. 
+                    Hecho en E.U.A. 
+                </p>
+            </div>
+            <div class="containerCode">
+                <img src="https://i.postimg.cc/br4bVxx2/DEMOCODIGODEBARRAS.png" id="barCode" >
+            </div>
+            <div class="containerCode">
+                <img src="https://i.postimg.cc/1ttq9CMq/DEMOQR.png" id="QRcode">
+            </div>
+        </div>
+        
+    </main>
+   <footer>
+    <div class="footer">
+        <div class="img">
+            <img src="https://i.postimg.cc/7P7WWZ0v/sitio-web.png" class="logoRedes">
+        </div> 
+        <h4><span style="color: black">cafe</span><span style="color: white ">Etrusca</span><span style="color: black">.com</span></h4>  
+    </div>
+    <div class="footer">
+        <div class="img">
+            <img src="https://i.postimg.cc/NFwpcRT3/facebook.png"  class="logoRedes">
+            <img src="https://i.postimg.cc/rsJC23q4/instagram.png" class="logoRedes">     
+        </div>
+        <h4><span style="color: black">@cafe.</span><span style="color: white ">etrusca</span></h4>
+    </div>
+   </footer>
+
+    
+</body>
+<script>
+    console.log('Hola mundos');
+
+
+</script>
+<style>
+    body{
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      font-family: poppins;
+    }
+        header{
+         display: flex;
+        flex-direction: column;
+
+        background-color: #FF4694;
+    }
+    #logoEtrusca{
+        height: 10vh;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        background-color: #FF4694;
+        color: white;
+
+        padding: 1vh;
+    }
+
+    .list-group{
+        column-count:2;
+        column-gap:20px;
+        column-rule:4px ;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        
+        
+        color: black;
+}  
+footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 7vh;
+        background-color: #FF4694;
+}
+.logoRedes{
+    height: 3vh;
+}
+
+.containerDescription{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    padding: 2vh;
+}
+#description{
+    background: rgba(255, 70, 148, 0.08);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    position: relative;
+    /* width: 827px;
+    height: 201px; */
+    left: 1vw;
+    padding: 3vh;
+    /* top: 250px; */
+}
+.containerCode{
+    background-color: aqua;
+}
+#barCode, #QRcode{
+    height: 10vh;
+}
+</style>
+</html>
