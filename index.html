@@ -21,17 +21,17 @@
             <h1 id="name">Cappuccine base en polvo sabor frosted latte bolsa 1.362 kg</h1>
         </div>
         <ul class="list-group" style="list-style: none;">
-            <li class="list-group-item" id="keySap">Clave: IBP-OO2</li>
-            <li class="list-group-item" id="brand">Marca: CAPUCCHINE</li>
-            <li class="list-group-item" id="category">Categoría: Bases en polvo</li>
-            <li class="list-group-item" id="flavor">Sabor: Vainilla</li>
-          </ul>
+            <li class="list-group-item" id="keySap"><b>Clave: </b>IBP-OO2</li>
+            <li class="list-group-item" id="brand"><b>Marca: </b>CAPUCCHINE</li>
+            <li class="list-group-item" id="category"><b>Categoría: </b>Bases en polvo</li>
+            <li class="list-group-item" id="flavor"><b>Sabor: </b>Vainilla</li>
+        </ul>
     </section>
     <main>
-        <div class="containerDescription">
-            <div>
+        <div id="containerDescriptionCodes">
+            <div class="containerDescription">
                 <p id="description">
-                    Descripción: 
+                    <b>Descripción: </b><br>
                     Base en polvo sabor café con leche. para preparar bebidas frías y calientes. elaborado con café y 
                     toque de chocolate, endulzado con azúcar de caña y jarabe de maíz y saborizantes artificiales. 
                     Libre de gluten. Producto con certificación kosher y certificación halal. Bolsa con 1.362kg. 
@@ -45,7 +45,27 @@
                 <img src="https://i.postimg.cc/1ttq9CMq/DEMOQR.png" id="QRcode">
             </div>
         </div>
-        
+        <div class="containerImageAndIngredients">
+            <ul class="list-group2" style="list-style: none;">
+                <li class="list-group-item" id="presentation"><b>Presentación: </b>Bolsa</li>
+                <li class="list-group-item" id="content"><b>Contenido:</b> 1.362 kg</li>
+                <li class="list-group-item"> <b>Medidas: </b>23 x 5 x 34 cm</li>
+                <li class="list-group-item" id="flavor"><b>Peso: </b>1400 g.</li><br><br>
+                
+                <li class="list-group-item" id="certificacion"><b>Certificación: </b>Kosher y halal</li>
+                <li class="list-group-item" id="observations"><b>Observaciones: </b>Contiene leche</li>
+            </ul>
+            <div >
+                <img src="https://cafeetrusca.com/img/producto/IBP-002.webp" id="imgProduct">
+            </div>
+            <div>
+                <p id="ingredients"><b>Ingredientes: </b>Sustituto de crema [grasa vegetal, azucares añadidos 
+                    (jarabe de maíz y azúcar de caña), caseinatos, fosfato dipotásico secundario, ásteres de 
+                    propilenglicol de ácidos grasos, mono y diglicéridos, silicoaluminato de sodio, sal, lecitina 
+                    de soya, carragenina, saborizante artificial y bixina cis], azúcares añadidos (azúcar de caña), 
+                    leche descremada, café, cocoa alcalina y saborizante artificial.</p>
+            </div>
+        </div>
     </main>
    <footer>
     <div class="footer">
@@ -116,7 +136,7 @@ footer{
         flex-direction: row;
         justify-content: space-around;
        
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 7vh;
@@ -125,14 +145,23 @@ footer{
 .logoRedes{
     height: 3vh;
 }
+#containerDescriptionCodes{
+    display: flex;
+    flex-direction:row;
+}
+
 
 .containerDescription{
+    flex-grow: 1;                  
+
     display: flex;
     flex-direction: row;
 
     width: 100%;
     padding: 2vh;
 }
+
+
 #description{
     background: rgba(255, 70, 148, 0.08);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -145,11 +174,43 @@ footer{
     padding: 3vh;
     /* top: 250px; */
 }
+
 .containerCode{
-    background-color: aqua;
+    flex-grow: 1;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vh;
+
 }
 #barCode, #QRcode{
     height: 10vh;
+}
+.containerImageAndIngredients{
+    display: flex;
+    flex-direction: wrap;
+
+    justify-content: space-evenly;
+
+}
+#imgProduct{
+    width: 20vw;
+    height: 40vh;
+
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#ingredients{
+    background: rgba(255, 70, 148, 0.27);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+padding: 2vh;
+width: 54.53vw;
 }
 </style>
 </html>
