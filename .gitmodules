@@ -1,0 +1,3 @@
+[submodule "insumos"]
+	path = insumos
+	url = ./insumos

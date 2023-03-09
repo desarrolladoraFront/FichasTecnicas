@@ -1,0 +1,59 @@
+[
+    {
+      "class": 1,  
+      "keySap": "",
+      "name": "",
+      "brand": "",
+      "barCode": 123456789876,
+      "QRcode": "no sé todavía como se recibe",
+      "department": "insumos",
+      "category": "",
+      "flavor": "",
+      "description": "",
+      "presentation": "",
+      "content": "",
+      "certificacion": "",
+      "length": "",
+      "width": "",
+      "height": "",
+      "weight": "",
+      "ingredients": "",
+      "observations": ""
+    },
+    {
+      "class": 2, //accesorios
+      "keySap": "",
+      "name": "",
+      "brand": "",
+      "barCode": 123456789876,
+      "QRcode": "no sé todavía como se recibe",
+      "department": "accesorios",
+      "category": "",
+      "subCategory": "",
+      "description": "",
+      "length": "",
+      "width": "",
+      "height": "",
+      "weight": ""
+    },
+    {
+      "class": 3,
+      "keySap": "",
+      "name": "",
+      "brand": "",
+      "barCode": "",
+      "QRcode": "no sé todavía como se recibe",
+      "department": "maquinaria",
+      "category": "",
+      "model": "",
+      "color": "",
+      "description": "",
+      "voltage": "",
+      "length": "",
+      "width": "",
+      "height": "",
+      "weight": "",
+      "warranty": ""  
+    }
+    
+]
