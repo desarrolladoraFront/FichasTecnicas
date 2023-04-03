@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: poppins;
+
+    position: relative;
+    padding-bottom: 6em;
+    min-height: 100vh;
+  }
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: #D7762F;
+        width: 100%;
+    }
+        .logo{
+            width: 30%;
+            padding: 1vh;
+        }
+
+        #logoEtrusca{
+            height: 14.25vh;
+        }
+
+    section{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF4694;
+        color: white;
+        width: 100%;
+    }
+        .title{
+            width: 60%;
+        }
+        #name{
+            font-weight: 600;
+            font-size: 2.5em;
+            position: relative;
+            padding-left: 2vw;
+            display: flex;
+            align-items: center;
+        }
+        .list-group{
+            column-count:2;
+            column-gap: 1.2em;
+            column-rule:.25em ;
+            width: 60%;
+        }
+
+    main{
+        width: 100%;
+        position: relative;
+        top: 1vw;
+
+    }
+        #containerDescriptionAndCodes{
+            display: flex;
+            flex-direction:row;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .containerDescription{
+            display: flex;
+            flex-direction: row;
+            padding: 1.5vh;
+            background: rgba(255, 70, 148, 0.08);
+            box-shadow: 0vh 0.6665vh 0.6665vh rgba(0, 0, 0, 0.25);
+            border-radius: 1.66vh;
+            width: 40%;
+        }
+
+        .containerCode{
+            /* box-shadow: 0vh 0.6665vh 0.6665vh rgba(0, 0, 0, 0.25);*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1vh;
+            width: 10%;
+        }
+
+        #barCode, #QRcode{
+            height: 15vh;
+        }
+
+        .containerImageAndIngredients{
+            display: flex;
+            flex-direction: wrap;
+            justify-content: space-around;
+            align-items: center;
+
+            position: relative;
+            top: 2vh;
+            bottom: 2vh;
+            padding: 1vw;
+        }
+        .list-group2{
+            width: 20%;
+        }
+
+        #imgProduct{
+            height: 45vh;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+        }
+
+        #ingredients{
+            background: rgba(255, 70, 148, 0.27);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+
+            padding: 1.5vh;
+            width: 20vw;
+            position: relative;
+        }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        color: black;
+    }
+
+    footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 4vh;
+            background-color: #FF4694;
+    }
+
+        .img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logoRedes{
+            height: 3.5vh;
+            padding-left: .5vh;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .containerDescription{
+                width: 40%;
+            }
+            #barCode, #QRcode{
+                height: 10vh;
+            }
+            .list-group2{
+                width: 13%;
+            }
+            #imgProduct{
+                height: 33vh;
+            }
+        }
+
+        @media screen and (max-width: 779px) {
+            #name{
+                font-weight: 600;
+                font-size: 2em;
+                position: relative;
+                padding-left: 2vw;
+                display: flex;
+                align-items: center;
+            }
+            #containerDescriptionAndCodes{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .containerDescription{
+                width: 80vw;
+            }
+            #barCode, #QRcode{
+                position: relative;
+                top: 1vh;
+                height: 15vh;
+            }
+            .containerImageAndIngredients{
+                display: flex;
+                flex-direction: column;
+            }
+            .list-group2{
+                width: 100%;
+                column-count:1;
+                column-gap: 1.2em;
+                column-rule:.25em ;
+                width: 60%;
+            } 
+            #imgProduct{
+                height: 50vh;
+            } 
+            #ingredients{
+                width: 80vw;
+            }
+        }
+
+
+
+        @media screen and (max-width: 470px) {
+            #logoEtrusca{
+                height: 9vh;
+            }
+    
+            section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+                .title{
+                    width: 70%;
+                }
+                #name{
+                    font-weight: 600;
+                    font-size: 2em;
+                }
+                .list-group{
+                    column-count:1;
+                    column-gap: 1em;
+                    column-rule:.25em ;
+                    width: 100%; 
+                }
+                #barCode, #QRcode{
+                    height: 10vh;
+                }
+        
+            #imgProduct{
+                height: 40vh;
+            }
+            footer{
+                height: 3vh;
+        }
+            h4{
+                font-size: 12px;
+            }
+            .logoRedes{
+                height: 2vh;
+            }
+
+        }
