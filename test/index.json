@@ -1,6 +1,6 @@
 [
     {
-      "class": 1,  // insumos
+      "class": 1, 
       "keySap": "",
       "name": "",
       "brand": "",
@@ -21,7 +21,7 @@
       "observations": ""
     },
     {
-      "class": 2, //accesorios
+      "class": 2,
       "keySap": "",
       "name": "",
       "brand": "",
@@ -37,7 +37,7 @@
       "weight": ""
     },
     {
-      "class": 3, //maquinaria
+      "class": 3,
       "keySap": "",
       "name": "",
       "brand": "",
