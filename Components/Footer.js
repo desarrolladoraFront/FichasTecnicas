@@ -1,12 +1,12 @@
  export const Footer = () => {
-    const footer = document.createElement('footer');
+    const footer = document.getElementById('footer');
 
     const div1 = document.createElement('div');
     const iconWebPage = document.createElement('img');
     const webPage = document.createElement('h4');
 
-    logoRedes.setAttribute('src', 'https://i.postimg.cc/7P7WWZ0v/sitio-web.png');
-    h4.textContent = '<span style="color: black">cafe</span><span style="color: white ">Etrusca</span><span style="color: black">.com</span>';
+    iconWebPage.setAttribute('src', 'https://i.postimg.cc/7P7WWZ0v/sitio-web.png');
+   webPage.textContent = '<span style="color: black">cafe</span><span style="color: white ">Etrusca</span><span style="color: black">.com</span>';
 
     div1.append(iconWebPage, webPage);
 
@@ -15,7 +15,7 @@
     const iconFacebook = document.createElement('img');
     const nameRed = document.createElement('h4');
 
-    iconFacebook.setAttribute('src', 'https://i.postimg.cc/NFwpcRT3/facebook.png');
+    iconFacebook.setAttribute('src', 'https://i.postimg.cc/NFwpcRT3/facebook.png'                                            );
     iconInstagram.setAttribute('src', 'https://i.postimg.cc/rsJC23q4/instagram.png');
     nameRed.textContent = '<span style="color: black">@cafe.</span><span style="color: white ">etrusca</span>';
 

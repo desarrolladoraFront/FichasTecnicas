@@ -16,6 +16,7 @@ export const CreateHeader = () => {
 
     //renderiza los elementos
     div.append(logo);
+    
     return header.append(div, button);
 }
 
