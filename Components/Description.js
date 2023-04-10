@@ -1,9 +1,10 @@
-export const Description = ( description ) => {
-    const div = documentCreateElement('div');
+export const Description = (description, color) => {
+    const container = document.getElementById('containerDescription');
+    container.style.backgroundColor = color
     const p = document.createElement('p');
+    p.textContent =  description;
 
-    p.textContent = description
-    return div.append(p);
+    return container.append(p);
 }
 
 //falta el estilo pero ya tiene el parametro.

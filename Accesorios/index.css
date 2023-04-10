@@ -11,16 +11,24 @@ body{
     header{
         display: flex;
         flex-direction: column;
-        background-color: #D7762F;
         width: 100%;
     }
         .logo{
             width: 30%;
             padding: 1vh;
         }
-
-        #logoEtrusca{
+        .logoEtrusca{
             height: 14.25vh;
+        }
+        button{
+            font-family: poppins;
+            border: none;
+            transition-duration: 0.4s;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+        }
+        button:hover{
+            background-color: grey;
         }
 
     section{
@@ -28,14 +36,12 @@ body{
         flex-direction: wrap;
         justify-content: center;
         align-items: center;
-        background-color: #FF4694;
+       
         color: white;
         width: 100%;
     }
         .title{
             width: 60%;
-        }
-        #name{
             font-weight: 600;
             font-size: 2.5em;
             position: relative;
@@ -43,18 +49,21 @@ body{
             display: flex;
             align-items: center;
         }
-        .list-group{
-            column-count:2;
-            column-gap: 1.2em;
-            column-rule:.25em ;
-            width: 60%;
+        table{
+            width: 30%;
+        }
+        td, tr{
+            text-align: left;
+            width: 10%;
+        }
+        td{
+            font-weight: 400;
         }
 
     main{
         width: 100%;
         position: relative;
         top: 1vw;
-
     }
         #containerDescriptionAndCodes{
             display: flex;
@@ -63,11 +72,10 @@ body{
             justify-content: space-around;
         }
 
-        .containerDescription{
+        #containerDescription{
             display: flex;
             flex-direction: row;
             padding: 1.5vh;
-            background: rgba(255, 70, 148, 0.08);
             box-shadow: 0vh 0.6665vh 0.6665vh rgba(0, 0, 0, 0.25);
             border-radius: 1.66vh;
             width: 40%;
@@ -87,7 +95,7 @@ body{
             height: 15vh;
         }
 
-        .containerImageAndIngredients{
+        #containerImageAndIngredients{
             display: flex;
             flex-direction: wrap;
             justify-content: space-around;
@@ -98,11 +106,7 @@ body{
             bottom: 2vh;
             padding: 1vw;
         }
-        .list-group2{
-            width: 20%;
-        }
-
-        #imgProduct{
+        .imgProduct{
             height: 45vh;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 10px;

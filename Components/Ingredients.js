@@ -1,5 +1,6 @@
 export const Ingredients = ( ingredients ) => {
-    const div = documentCreateElement('div');
+    const div = document.getElementById('ingredients');
+    div.style.display = "block";
     const p = document.createElement('p');
 
     p.textContent = ingredients

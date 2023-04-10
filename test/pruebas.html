@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        
+    const section = document.getElementById('root');  //crea una sección que será el nodo padre de los otros elementos que voy a crear.
+    const nombreProducto = document.createElement('h1');
+
+    //crea la tabla de presentación, con las características del producto.
+    const tableContent = document.createElement('table');
+
+    //tabla para maquinaria
+        const celdaClave = document.createElement('tr');
+        const textoClave = document.createElement('td');
+        const clave = document.createElement('td');
+
+        const celdaMarca = document.createElement('tr');
+        const textoMarca = document.createElement('td');
+        const marca = document.createElement('td');
+
+        const celdaCategoria = document.createElement('tr');
+        const textoCategoria = document.createElement('td');
+        const categoria = document.createElement('td');
+
+        const celdaSubcategoria = document.createElement('tr');
+        const textoSubcategoria = document.createElement('td');
+        const subcategoria = document.createElement('td');
+
+    //contenido que va llevar la tabla
+        textoClave.textContent = "Clave:"; //aquí tendré que poner las variables que guarden los elementos de mis objetos.
+        clave.textContent = "Hfsjdfals";
+    
+        textoMarca.textContent = 'Marca:';
+        marca.textContent = 'VANS'
+
+        textoCategoria.textContent = 'Categoría:';
+        categoria.textContent = 'Leches'
+
+        textoSubcategoria.textContent = 'Subcategoría:';
+        subcategoria.textContent = 'Molinos';
+
+        celdaClave.append(textoClave, clave);
+        celdaMarca.append(textoMarca, marca);
+        celdaCategoria.append(textoCategoria, categoria);
+        celdaSubcategoria.append(textoSubcategoria, subcategoria);
+        
+        tableContent.append(celdaClave, celdaMarca, celdaCategoria, celdaSubcategoria);
+    section.append(nombreProducto, nombreProducto, tableContent);
+    </script>
+</body>
+</html>

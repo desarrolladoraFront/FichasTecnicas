@@ -13,46 +13,12 @@
     <title>Ficha técnica</title>
 </head>
 <body>
-    <header id="header">
-      <div class="logo">
-      <img id="logoEtrusca" src="https://i.postimg.cc/y8j19qhw/logo.png">
-      <button onclick="sap()">Imprimir ficha</button>
-    <!---->  <script>
-//         function printBtn () {
-//     console.log('hola');
-// }
-
-// const sap = () => {
-//     const keySap = document.getElementById('keySap');
-// keySap.innerHTML = '';
-// keySap.innerHTML = 'hola';
-// }
-//       </script>
-      </div>
-    </header>
-    <!-- <div class="class" >
-        <h2 >Insumos</h2>
-    </div> -->
-    <section clas="tittleAndTable">
-            <h1 id="name">Cappuccine base en polvo sabor frosted latte bolsa 1.362 kg</h1>
-        </div>
-        <ul class="list-group" style="list-style: none;">
-            <li class="list-group-item" id="keySap"><b>Clave: </b>IBP-OO2</li>
-            <li class="list-group-item" id="brand"><b>Marca: </b>CAPUCCHINE</li>
-            <li class="list-group-item" id="category"><b>Categoría: </b>Bases en polvo</li>
-            <li class="list-group-item" id="flavor"><b>Sabor: </b>Vainilla</li>
-        </ul>
-    </section>
-    <main>
+    <header id="header"></header>
+    <section id="section" clas="tittleAndTable"></section>
+    <main id="main">
        <div id="containerDescriptionAndCodes">
-            <div class="containerDescription">
-                <p id="description">
-                    <b>Descripción: </b><br>
-                    Base en polvo sabor café con leche. para preparar bebidas frías y calientes. elaborado con café y
-                    toque de chocolate, endulzado con azúcar de caña y jarabe de maíz y saborizantes artificiales.
-                    Libre de gluten. Producto con certificación kosher y certificación halal. Bolsa con 1.362kg.
-                    Hecho en E.U.A.
-                </p>
+            <div id="containerDescription">
+                <p id="description"><b>Descripción :</b></p>
             </div> 
             <div class="containerCode">
                 <img src="https://i.postimg.cc/br4bVxx2/DEMOCODIGODEBARRAS.png" id="barCode" >
@@ -61,25 +27,12 @@
                 <img src="https://i.postimg.cc/1ttq9CMq/DEMOQR.png" id="QRcode">
             </div>
         </div>
-        <div class="containerImageAndIngredients">
-            <ul class="list-group2" style="list-style: none;">
-                <li class="list-group-item" id="presentation"><b>Presentación: </b>Bolsa</li>
-                <li class="list-group-item" id="content"><b>Contenido:</b> 1.362 kg</li>
-                <li class="list-group-item" id="measures"> <b>Medidas: </b>23 x 5 x 34 cm</li>
-                <li class="list-group-item" id="weight"><b>Peso: </b>1400 g.</li><br><br>
-
-                <li class="list-group-item" id="certificacion"><b>Certificación: </b>Kosher y halal</li>
-                <li class="list-group-item" id="observations"><b>Observaciones: </b>Contiene leche</li>
-            </ul>
+        <div id="containerImageAndIngredients">
             <div id="img" >
-                <img src="https://cafeetrusca.com/img/producto/IBP-002.webp" id="imgProduct">
+                <!-- <img src="https://cafeetrusca.com/img/producto/IBP-002.webp" id="imgProduct"> -->
             </div>
             <div>
-                <p id="ingredients"><b>Ingredientes: </b>Sustituto de crema [grasa vegetal, azucares añadidos
-                    (jarabe de maíz y azúcar de caña), caseinatos, fosfato dipotásico secundario, ásteres de
-                    propilenglicol de ácidos grasos, mono y diglicéridos, silicoaluminato de sodio, sal, lecitina
-                    de soya, carragenina, saborizante artificial y bixina cis], azúcares añadidos (azúcar de caña),
-                    leche descremada, café, cocoa alcalina y saborizante artificial.</p>
+                <p id="ingredients" style="display: none;"><b>Ingredientes: </b></p>
             </div>
         </div> 
     </main>
@@ -101,5 +54,5 @@
  
 
 </body>
-<script src="index.js"></script>
+<script src="Accesorios.js" type="module"></script>
 </html>
