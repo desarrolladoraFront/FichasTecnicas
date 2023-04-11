@@ -11,7 +11,7 @@ export const TitleAndTable = (clas, colorBackground, nameOfproduct, keySap, bran
 
     //Creates the presentation table, with the characteristics of the product.
     const tableContent = document.createElement('table');
-    tableContent.classList = '.list-group';
+    tableContent.classList = 'table-content';
     
         //Table for insumos.
         if (clas === 1) {
