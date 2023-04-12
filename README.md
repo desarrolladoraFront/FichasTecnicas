@@ -23,18 +23,18 @@ esto para los usuarios que buscan salir del formato web, y encontrar una ficha m
 
 En la siguiente imágen se puede apreciar cómo era el diseño con el que se presentaban los productos.
 
-![Imágen de la ficha anterior](https://drive.google.com/file/d/1i-Z8yeSJVoWl6NDqgHqVF-8x1odUvnAl/view?usp=share_link)
+![Imágen de la ficha anterior](/Assets/Fichasbefore2023.jpg)
 
 Las siguientes capturas son el prototipo que se realizó.
  
- ![Imágen con el prototipo de Insumos](https://drive.google.com/file/d/1cnZaqB3fC_ZiIEfjLVj7tRHisIKDfZaG/view?usp=share_link)
- ![Imágen con el prototipo de Maquinaria](https://drive.google.com/file/d/1zKBWnoiIAp7XV6SDS7z7jbUg5SHMWJus/view?usp=share_link)
- ![Imágen con el prototipo de Accesorios](https://drive.google.com/file/d/1RICxhilLKO-e8M7B2EN7kczCVNTIxMTv/view?usp=share_link)
+ ![Imágen con el prototipo de Insumos](/Assets/Prototipo-Insumos.jpg)
+ ![Imágen con el prototipo de Maquinaria](/Assets/Prototipo-Maquinaria.jpg)
+ ![Imágen con el prototipo de Accesorios](/Assets/PrototipoAccesorios.jpg)
 
  Las ideas e inspiración, las obtuve de la página oficial: [Café Etrusca](https://cafeetrusca.com/).
 
 Y acá te comparto el formato para impresión.
-![Imágen del prototipo de impresión](https://drive.google.com/file/d/1NCZgkH-o9WbuwJGjuoP6b6IOOHf2GODP/view?usp=share_link)
+![Imágen del prototipo de impresión](/Assets/Prototipo-Impresion.jpg)
 
 # Guía de uso
 Sí estás aquí, no se me ocurré otra cosa más que colaborarás con este proyecto. 
